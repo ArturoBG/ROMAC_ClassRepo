@@ -1,23 +1,30 @@
+Unity Editor version:    2022.3.4f1 (35713cd46cd7)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.4.1 (Build 22F82)
+Darwin version:          22.5.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
 Using pre-set license
-Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32540 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\2022.3.4f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/Alexei/Documents/GitHub/ROMAC_ClassRepo/ROMAC_myProject
+/Users/arturobringas/Documents/GitHub/ROMAC_ClassRepo/ROMAC_myProject
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-54361
-Successfully changed project path to: C:/Users/Alexei/Documents/GitHub/ROMAC_ClassRepo/ROMAC_myProject
-C:/Users/Alexei/Documents/GitHub/ROMAC_ClassRepo/ROMAC_myProject
+59007
+Successfully changed project path to: /Users/arturobringas/Documents/GitHub/ROMAC_ClassRepo/ROMAC_myProject
+/Users/arturobringas/Documents/GitHub/ROMAC_ClassRepo/ROMAC_myProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,66 +56,63 @@ C:/Users/Alexei/Documents/GitHub/ROMAC_ClassRepo/ROMAC_myProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12096] Host "[IP] 192.168.100.49 [Port] 0 [Flags] 2 [Guid] 3467806465 [EditorId] 3467806465 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LO917UB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8742535808] Host "[IP] 192.168.100.47 [Port] 0 [Flags] 2 [Guid] 4262632938 [EditorId] 4262632938 [Version] 1048832 [Id] OSXEditor(0,Arturos-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12096] Host "[IP] 192.168.100.49 [Port] 0 [Flags] 2 [Guid] 3467806465 [EditorId] 3467806465 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LO917UB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8742535808] Host "[IP] 192.168.100.47 [Port] 0 [Flags] 2 [Guid] 4262632938 [EditorId] 4262632938 [Version] 1048832 [Id] OSXEditor(0,Arturos-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 11.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
-[Subsystems] Discovering subsystems at path C:/Program Files/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Alexei/Documents/GitHub/ROMAC_ClassRepo/ROMAC_myProject/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/arturobringas/Documents/GitHub/ROMAC_ClassRepo/ROMAC_myProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 770 (ID=0x4680)
-    Vendor:   Intel
-    VRAM:     16270 MB
-    Driver:   30.0.101.1273
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
 Initialize mono
-Mono path[0] = 'C:/Program Files/2022.3.4f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56681
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/2022.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.009113 seconds.
-- Loaded All Assemblies, in  0.497 seconds
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000824 seconds.
+- Loaded All Assemblies, in  0.685 seconds
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.401 seconds
-Domain Reload Profiling: 898ms
-	BeginReloadAssembly (149ms)
+- Finished resetting the current domain, in  0.821 seconds
+Domain Reload Profiling: 1506ms
+	BeginReloadAssembly (266ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (9ms)
-	RebuildCommonClasses (43ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (42ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (89ms)
-	LoadAllAssembliesAndSetupDomain (203ms)
-		LoadAssemblies (138ms)
+	initialDomainReloadingComplete (185ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (262ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (198ms)
-			TypeCache.Refresh (197ms)
-				TypeCache.ScanAssembly (185ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (151ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (402ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (822ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (307ms)
+		SetupLoadedEditorAssemblies (664ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (24ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (211ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (429ms)
+			ProcessInitializeOnLoadMethodAttributes (166ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,317 +120,92 @@ Domain Reload Profiling: 898ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Alexei\Documents\GitHub\ROMAC_ClassRepo\ROMAC_myProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Alexei\Documents\GitHub\ROMAC_ClassRepo\ROMAC_myProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.128 seconds
-Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
+Symbol file LoadedFromMemory doesn't match image /Users/arturobringas/Documents/GitHub/ROMAC_ClassRepo/ROMAC_myProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/arturobringas/Documents/GitHub/ROMAC_ClassRepo/ROMAC_myProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.977 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.792 seconds
-Domain Reload Profiling: 1911ms
-	BeginReloadAssembly (223ms)
+- Finished resetting the current domain, in  1.358 seconds
+Domain Reload Profiling: 2337ms
+	BeginReloadAssembly (256ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (32ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (756ms)
-		LoadAssemblies (437ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (586ms)
+		LoadAssemblies (427ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (434ms)
-			TypeCache.Refresh (402ms)
-				TypeCache.ScanAssembly (377ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (793ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (230ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1360ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (573ms)
+		SetupLoadedEditorAssemblies (1051ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (15ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (404ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (846ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 4.39 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3194 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (29.0 KB). Loaded Objects now: 3684.
-Memory consumption went from 152.9 MB to 152.9 MB.
-Total: 3.128300 ms (FindLiveObjects: 0.400200 ms CreateObjectMapping: 0.111900 ms MarkObjects: 2.550700 ms  DeleteObjects: 0.064100 ms)
+Unloading 3195 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (29.0 KB). Loaded Objects now: 3694.
+Memory consumption went from 158.6 MB to 158.5 MB.
+Total: 3.156250 ms (FindLiveObjects: 0.224292 ms CreateObjectMapping: 0.077792 ms MarkObjects: 2.793833 ms  DeleteObjects: 0.059500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1112456.011647 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Fire1.prefab
-  artifactKey: Guid(0cd23adbcd99c1c48b9ffdb204482330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Fire1.prefab using Guid(0cd23adbcd99c1c48b9ffdb204482330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205c155a24f77e90716cf98810955b81') in 2.519193 seconds
+  Time since last request: 9930.527468 seconds.
+  path: Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_B.mat
+  artifactKey: Guid(2f812bc7d2391f74095c870e8dea3e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_B.mat using Guid(2f812bc7d2391f74095c870e8dea3e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3a05fb23e411b5ca8e374b45a26113') in 0.459235 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Ground_Decal_Leaves1.prefab
-  artifactKey: Guid(051e8675b20df5946b35366c1e72bf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Ground_Decal_Leaves1.prefab using Guid(051e8675b20df5946b35366c1e72bf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ba1587b093d59c53043a96b48b4df4') in 2.135922 seconds
+  Time since last request: 0.000221 seconds.
+  path: Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_B.mat
+  artifactKey: Guid(b8d4818780a648f43a3c6e2d9b7e0dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_B.mat using Guid(b8d4818780a648f43a3c6e2d9b7e0dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ef1327b1b55941d16b0e4b90f048b6') in 0.022903 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Prop_Barrel.prefab
-  artifactKey: Guid(3531d1238093c614bab38db5b0dbc2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Prop_Barrel.prefab using Guid(3531d1238093c614bab38db5b0dbc2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc495f09af1fd8330120dffb9be6163') in 0.025801 seconds
+  Time since last request: 0.000354 seconds.
+  path: Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_B.mat
+  artifactKey: Guid(dda89ebfddae0294dbbfc71c5556dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_B.mat using Guid(dda89ebfddae0294dbbfc71c5556dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6955fe42bfedaebe091979eed1afdf') in 0.012649 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Tesla2.prefab
-  artifactKey: Guid(25e37fe975994024eb683a9522f51ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Tesla2.prefab using Guid(25e37fe975994024eb683a9522f51ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74dc531b2f518a949685edda85664448') in 0.024459 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Fire2.prefab
-  artifactKey: Guid(fd15b8db030ce5543bd8137839360e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Fire2.prefab using Guid(fd15b8db030ce5543bd8137839360e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589ef9042a83ca8856b065ac3ec7cd95') in 0.023738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Hammer1.prefab
-  artifactKey: Guid(00f627af8574bb34a88fe7bbbc62a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Hammer1.prefab using Guid(00f627af8574bb34a88fe7bbbc62a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012c7cb119b62f0560f3b496db8b05c3') in 0.035220 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Bush_09.prefab
-  artifactKey: Guid(fc4eae100fe5001449eb37e9ef21c174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Bush_09.prefab using Guid(fc4eae100fe5001449eb37e9ef21c174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fdde47859aa98acc3aef9b0b9d0c87') in 0.036825 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Column1.prefab
-  artifactKey: Guid(2243d9dfdf3af444b859b68c135afced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Column1.prefab using Guid(2243d9dfdf3af444b859b68c135afced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe4b4e4ba86b1278fe90ed7733933b3') in 0.099068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Cannon3.prefab
-  artifactKey: Guid(e3b6e52f3c5c469419a8d92c745fdcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Cannon3.prefab using Guid(e3b6e52f3c5c469419a8d92c745fdcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31302796b381e5fe1c520bf7f97916e') in 0.014150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Crossbow2.prefab
-  artifactKey: Guid(74bc131af1defe2498db1988a442c264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Crossbow2.prefab using Guid(74bc131af1defe2498db1988a442c264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a513de03160eb53f506516a53095c5') in 1.064945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Ivy5.prefab
-  artifactKey: Guid(c9706555d570e7a42ae9b4b06030d765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Ivy5.prefab using Guid(c9706555d570e7a42ae9b4b06030d765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54311548111e914dbc1777e9bd73ae9') in 0.028777 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Radar1.prefab
-  artifactKey: Guid(0117dc41ee02c384991324a68c148eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Radar1.prefab using Guid(0117dc41ee02c384991324a68c148eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f806a60e5a9a1761b288ef4e269843e') in 0.053802 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Gauss3.prefab
-  artifactKey: Guid(c34e9023c81b3e54a8bea6d128746dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Gauss3.prefab using Guid(c34e9023c81b3e54a8bea6d128746dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ff4305061fabaaed1dda77e8a6e7c7') in 0.021200 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Floor1.prefab
-  artifactKey: Guid(914ae50ea7e6a60499a2a9830d286c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Floor1.prefab using Guid(914ae50ea7e6a60499a2a9830d286c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9934c8f57d4d2cf770fcb890c8d1143') in 0.062923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000996 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Crystal5.prefab
-  artifactKey: Guid(ae6dd725660355449a254337bb42678a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Crystal5.prefab using Guid(ae6dd725660355449a254337bb42678a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8839031a162804e5d048133c9c2c0245') in 0.042915 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Floor2.prefab
-  artifactKey: Guid(6d81a3286d56fbb448d356b7dc8948c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Floor2.prefab using Guid(6d81a3286d56fbb448d356b7dc8948c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcfa20c81b1588f45b52555b4cfacd0') in 0.074322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Jar2B.prefab
-  artifactKey: Guid(cb18c6bbb82ea6e41868e6547c8ed1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Jar2B.prefab using Guid(cb18c6bbb82ea6e41868e6547c8ed1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90a86850111f80d4073152aa2130e00') in 0.050060 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Machinegun1.prefab
-  artifactKey: Guid(0f06dd96c190e7d4687b314659fb7564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Machinegun1.prefab using Guid(0f06dd96c190e7d4687b314659fb7564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e540a49f02fb0dac51d6d19b4e46216') in 0.018341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Mushroom1A.prefab
-  artifactKey: Guid(9d58ec42857e6914a8e68e6a61d3d08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Mushroom1A.prefab using Guid(9d58ec42857e6914a8e68e6a61d3d08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c46496a5acc777c2d5222ed47c684b2') in 0.049229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Crystal1.prefab
-  artifactKey: Guid(300949ed426d58541b43badd07eb66f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Crystal1.prefab using Guid(300949ed426d58541b43badd07eb66f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e0c8ff2a3770c27e9bd33295ffd453') in 0.034373 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Tesla1.prefab
-  artifactKey: Guid(589de37dfaa5f4842a67d77c3cac8e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Tesla1.prefab using Guid(589de37dfaa5f4842a67d77c3cac8e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3caf4b47c3c7aff66cee51c124f4c39') in 0.038840 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Plasma3.prefab
-  artifactKey: Guid(d67244a4c7232614fb532712af0e839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Plasma3.prefab using Guid(d67244a4c7232614fb532712af0e839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156ccd4faadba89deb66fbacc4375d37') in 0.043568 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Column3B.prefab
-  artifactKey: Guid(767490b42ef03b040859400450e9707e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Column3B.prefab using Guid(767490b42ef03b040859400450e9707e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eccc146366fdfc728d25a49f6545c04') in 0.037608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Hammer3.prefab
-  artifactKey: Guid(69d5a1da5975cb7408835788ed8c0325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Hammer3.prefab using Guid(69d5a1da5975cb7408835788ed8c0325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad225e9e4f563728c3d8859523238b6') in 0.033278 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Floor4.prefab
-  artifactKey: Guid(0dc9ab6911181fc46bb4e66ceb1ffbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Floor4.prefab using Guid(0dc9ab6911181fc46bb4e66ceb1ffbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0e1ed4d98bfdb7c449148cc7ca3f37') in 0.031286 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Bones_01.prefab
-  artifactKey: Guid(1c81daea1a67fcf4fa19ea079ab77f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Bones_01.prefab using Guid(1c81daea1a67fcf4fa19ea079ab77f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61ab1f2323ddaa14aeb586de5d54010') in 0.052303 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Fence_elements2.prefab
-  artifactKey: Guid(1bc6757d71e8f9f42bc31905d33b6dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Fence_elements2.prefab using Guid(1bc6757d71e8f9f42bc31905d33b6dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a65dcfe00eca4b41e75a6d01d50a986') in 0.032412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Fence1.prefab
-  artifactKey: Guid(2285f56cf6edb694795d05be7bfd96d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Fence1.prefab using Guid(2285f56cf6edb694795d05be7bfd96d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72ed474c3e51f684805761a29adfea3') in 0.022242 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Fence3.prefab
-  artifactKey: Guid(fb7fbed7055faaa459ef8915ccd26faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Fence3.prefab using Guid(fb7fbed7055faaa459ef8915ccd26faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057cc961e1febb835654052de04efa61') in 0.018828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Prop_Cargo1.prefab
-  artifactKey: Guid(75793eae793452e4b89d9a259d43dd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Prop_Cargo1.prefab using Guid(75793eae793452e4b89d9a259d43dd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ee6b453acfd1b4f604716082806ed6') in 0.023361 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/MOBA and Tower Defense/Prefabs_props/Prop_Chest1.prefab
-  artifactKey: Guid(eb3669f31417b7b4d852f631a5a93c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MOBA and Tower Defense/Prefabs_props/Prop_Chest1.prefab using Guid(eb3669f31417b7b4d852f631a5a93c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19935153723eb246e1ae8ffcf254511a') in 0.021094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
 AssetImportWorker is now disconnected from the server
 Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

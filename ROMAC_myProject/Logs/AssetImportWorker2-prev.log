@@ -1,0 +1,674 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32540 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Alexei/Documents/GitHub/ROMAC_ClassRepo/ROMAC_myProject
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54361
+Successfully changed project path to: C:/Users/Alexei/Documents/GitHub/ROMAC_ClassRepo/ROMAC_myProject
+C:/Users/Alexei/Documents/GitHub/ROMAC_ClassRepo/ROMAC_myProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19744] Host "[IP] 192.168.100.49 [Port] 0 [Flags] 2 [Guid] 2867825247 [EditorId] 2867825247 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LO917UB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19744] Host "[IP] 192.168.100.49 [Port] 0 [Flags] 2 [Guid] 2867825247 [EditorId] 2867825247 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LO917UB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 14.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Alexei/Documents/GitHub/ROMAC_ClassRepo/ROMAC_myProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 770 (ID=0x4680)
+    Vendor:   Intel
+    VRAM:     16270 MB
+    Driver:   30.0.101.1273
+Initialize mono
+Mono path[0] = 'C:/Program Files/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2022.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.009215 seconds.
+- Loaded All Assemblies, in  0.521 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.465 seconds
+Domain Reload Profiling: 984ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (223ms)
+		LoadAssemblies (128ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (193ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (465ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (382ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Alexei\Documents\GitHub\ROMAC_ClassRepo\ROMAC_myProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Alexei\Documents\GitHub\ROMAC_ClassRepo\ROMAC_myProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.068 seconds
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.777 seconds
+Domain Reload Profiling: 1842ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (729ms)
+		LoadAssemblies (372ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (421ms)
+			TypeCache.Refresh (396ms)
+				TypeCache.ScanAssembly (375ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (777ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (523ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (367ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (29.0 KB). Loaded Objects now: 3684.
+Memory consumption went from 152.9 MB to 152.8 MB.
+Total: 3.282500 ms (FindLiveObjects: 0.400600 ms CreateObjectMapping: 0.113300 ms MarkObjects: 2.708800 ms  DeleteObjects: 0.058400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1112455.993172 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Bush_05.prefab
+  artifactKey: Guid(b3e46ff5b41c5cd4984b42de9313e9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Bush_05.prefab using Guid(b3e46ff5b41c5cd4984b42de9313e9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894be644548fa613949623c5cfbb2b00') in 3.457055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Prop_Cargo3.prefab
+  artifactKey: Guid(2660a4e62ab457d43be50c0a93d7cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Prop_Cargo3.prefab using Guid(2660a4e62ab457d43be50c0a93d7cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd528e60b2139e99c913682106310e9f3') in 0.023256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Block2.prefab
+  artifactKey: Guid(894d5b133cac3984ca368629ab355a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Block2.prefab using Guid(894d5b133cac3984ca368629ab355a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6978b9c0cb4785262161f0d79cdd169') in 1.166286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Lantern1.prefab
+  artifactKey: Guid(13d9159b892537248a351bc28241a744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Lantern1.prefab using Guid(13d9159b892537248a351bc28241a744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7848ed34deecc5607211165899b5d6c4') in 0.105320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Ground_Decal2.prefab
+  artifactKey: Guid(c26f5c9bf2b0cbf4ca98ee1419390a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Ground_Decal2.prefab using Guid(c26f5c9bf2b0cbf4ca98ee1419390a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47214843b9db4554b44857af20f2f8e0') in 0.020431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Mushroom2A.prefab
+  artifactKey: Guid(119065208299f964abea5d59f436a2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Mushroom2A.prefab using Guid(119065208299f964abea5d59f436a2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666fc0b9e8cf98c653b4bfa962ad3412') in 0.041945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Rocket2_1.prefab
+  artifactKey: Guid(5ac0b8734834c704e91ce25cd2ec530f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Rocket2_1.prefab using Guid(5ac0b8734834c704e91ce25cd2ec530f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1aa8870ce6ac570e5354aad76364ec') in 0.027199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Plant_01.prefab
+  artifactKey: Guid(4c1af75c164d6dc4b822ed5e42af0517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Plant_01.prefab using Guid(4c1af75c164d6dc4b822ed5e42af0517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814c33e8234307e596cca1b5c6b80219') in 0.020840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Ground_Decal1.prefab
+  artifactKey: Guid(b176adc1afdda5f4fac0789caf7d5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Ground_Decal1.prefab using Guid(b176adc1afdda5f4fac0789caf7d5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd718f85df1c65fd246c0e970a449b7aa') in 0.020143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Acid1.prefab
+  artifactKey: Guid(d7049ca128a08fd40af5a67a66445c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Acid1.prefab using Guid(d7049ca128a08fd40af5a67a66445c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cccbfa2bba90ed17fe8b34415b77c0f') in 0.021815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Ground_Decal_grass1.prefab
+  artifactKey: Guid(a4c4263da38dac3409d76d68bb9de9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Ground_Decal_grass1.prefab using Guid(a4c4263da38dac3409d76d68bb9de9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac877ac83424e52ed2986965276df669') in 0.021609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Bush_08.prefab
+  artifactKey: Guid(f4ad288090bef6845979e90bca501277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Bush_08.prefab using Guid(f4ad288090bef6845979e90bca501277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0542537555b5bd0ab409402ef7ee7e') in 0.057530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Rocket2_2.prefab
+  artifactKey: Guid(eb7b8d2c185b5b74c94312e29a88edbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Rocket2_2.prefab using Guid(eb7b8d2c185b5b74c94312e29a88edbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6dd44a0d563d3dca2cafbf53bc1f11') in 0.033776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Plant_06.prefab
+  artifactKey: Guid(49a3b39882b9ce244b9aed5a34d3b9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Plant_06.prefab using Guid(49a3b39882b9ce244b9aed5a34d3b9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d38b26110ed2cb4a460d784e954db27') in 0.020651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Machinegun2.prefab
+  artifactKey: Guid(ade8373eb1301d84c923f27f5defbf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Machinegun2.prefab using Guid(ade8373eb1301d84c923f27f5defbf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5c816af7adfd8fd5217f9b223e861a') in 0.041004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Plant_02.prefab
+  artifactKey: Guid(c8652876a9b0a6e45ae2aa9440b7840d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Plant_02.prefab using Guid(c8652876a9b0a6e45ae2aa9440b7840d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf9b65925c8976f7dd13f37cdd582c3') in 0.037456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Barrier2.prefab
+  artifactKey: Guid(27c5bf75d8925b647b190d790b90d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Barrier2.prefab using Guid(27c5bf75d8925b647b190d790b90d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c45b98dfcc2d3dbd91cf2eb96df2000') in 0.034466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Jar1A.prefab
+  artifactKey: Guid(ea64b8eccab780f4c972910b7ba933be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Jar1A.prefab using Guid(ea64b8eccab780f4c972910b7ba933be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6fec8287eb8479c9c477529f2173fc') in 0.031836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Radar2.prefab
+  artifactKey: Guid(3f00cc78f5c186442bdf580420cba3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Radar2.prefab using Guid(3f00cc78f5c186442bdf580420cba3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782d8fe19dd9b65fe7525782af4e3380') in 0.022955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Rocket1_1.prefab
+  artifactKey: Guid(7a38708b0a8ee944a9d4e4a7fb73f96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Rocket1_1.prefab using Guid(7a38708b0a8ee944a9d4e4a7fb73f96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b90cd20cacdf1cd4a19c37e34d4226') in 0.020648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Bush_thorned1.prefab
+  artifactKey: Guid(17d16c47d3f94e84eb373f4e67dc84c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Bush_thorned1.prefab using Guid(17d16c47d3f94e84eb373f4e67dc84c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6830f492809102f15a47e2970ce665') in 0.030488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Plant_07.prefab
+  artifactKey: Guid(16b32e7b32705994eb7d5313cd029057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Plant_07.prefab using Guid(16b32e7b32705994eb7d5313cd029057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f326f085a488d2420dcb9a24527cf2') in 0.036628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Machinegun3.prefab
+  artifactKey: Guid(ee249d70eb4503c4e814835353ebb9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Machinegun3.prefab using Guid(ee249d70eb4503c4e814835353ebb9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4224100dc94dde5e6e9983042347f645') in 0.025065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Acid2.prefab
+  artifactKey: Guid(8bb4c0049a2324842985f6154045d4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Acid2.prefab using Guid(8bb4c0049a2324842985f6154045d4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30cf4dcf70b0c8093e8f0877c5924f9') in 0.019689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Brickwall3.prefab
+  artifactKey: Guid(f210c06d6b879cf458a4addb67784415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Brickwall3.prefab using Guid(f210c06d6b879cf458a4addb67784415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee859a7e3c648f116b258cf3da95ab60') in 0.041375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Rocket1_2.prefab
+  artifactKey: Guid(eedba33ac5d144d4d8767e71099044cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Rocket1_2.prefab using Guid(eedba33ac5d144d4d8767e71099044cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28257c1634a89e20eaf8fd189357d7f') in 0.022517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Laser2.prefab
+  artifactKey: Guid(72eb35f4963c20245bea471b983d7cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Laser2.prefab using Guid(72eb35f4963c20245bea471b983d7cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069410d2313a56977ce5ff5e87fe8089') in 0.024542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Laser3.prefab
+  artifactKey: Guid(62b2b48d66f8a3c42acb7e96acc10475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Laser3.prefab using Guid(62b2b48d66f8a3c42acb7e96acc10475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19be9d2fa8930e8d60d2155b4ff95a37') in 0.020477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Prop_Chest3.prefab
+  artifactKey: Guid(aeb5cc125ace2b54baf25571f0b4c54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Prop_Chest3.prefab using Guid(aeb5cc125ace2b54baf25571f0b4c54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815ead9b183ab2f070224b85be3d7501') in 0.021920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Ground_Decal3.prefab
+  artifactKey: Guid(154b222ed4271f9498042c251fee0755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Ground_Decal3.prefab using Guid(154b222ed4271f9498042c251fee0755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c8588b6b4763b42dcc294149b4445b') in 0.034444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Brickwall4.prefab
+  artifactKey: Guid(75cdc1fcd3ab5134eac12c60beebbbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Brickwall4.prefab using Guid(75cdc1fcd3ab5134eac12c60beebbbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26456ea9fd1b4e94de96e94119927de') in 0.035395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Crystal3.prefab
+  artifactKey: Guid(d32f55809f710dc4aa6dd7166c8c9c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_Turrets/Tow_Crystal3.prefab using Guid(d32f55809f710dc4aa6dd7166c8c9c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178c14899d47c05708a6c8a1ea14d842') in 1.686859 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 66.829981 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Rock Group 01.prefab
+  artifactKey: Guid(ecbc48d75af94964eb8918077e95af2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Rock Group 01.prefab using Guid(ecbc48d75af94964eb8918077e95af2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091c43a053e5af8c3d437f185c1fc080') in 0.068515 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Rune_04.prefab
+  artifactKey: Guid(19112126ed28d04468aa956db56a4501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Rune_04.prefab using Guid(19112126ed28d04468aa956db56a4501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4b41b529046e708b6559140177d9ae') in 0.045375 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Stair_el5.prefab
+  artifactKey: Guid(5fbc11a0e861b8448b878154a68bbcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Stair_el5.prefab using Guid(5fbc11a0e861b8448b878154a68bbcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70269f942c8b1393583367bc9128ccd') in 0.047737 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Rock_12.prefab
+  artifactKey: Guid(1f37663739aeae54592638fff17bca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Rock_12.prefab using Guid(1f37663739aeae54592638fff17bca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3397a6692a6b0f9d91c08d878356a561') in 0.027845 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Stair_el8.prefab
+  artifactKey: Guid(c862d94d79b998e48b6e3acc1b51bd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Stair_el8.prefab using Guid(c862d94d79b998e48b6e3acc1b51bd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af180ccb2f79e8cd683f779289639b33') in 0.031813 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Tree_05.prefab
+  artifactKey: Guid(a88f7007a2170c2488b9c67af94cddb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Tree_05.prefab using Guid(a88f7007a2170c2488b9c67af94cddb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553c6cfb62c8357cc2495337a79e4ac5') in 0.033524 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Stair_el2.prefab
+  artifactKey: Guid(56bad1900b68bd346a43dffa1a10b708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Stair_el2.prefab using Guid(56bad1900b68bd346a43dffa1a10b708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc7171f93da8086bf5a0bd63b41043f') in 0.027050 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Rock_15.prefab
+  artifactKey: Guid(870094c980b668a4f90efb842f375ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Rock_15.prefab using Guid(870094c980b668a4f90efb842f375ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed324c8c9c63c493165f09f2aa1cb847') in 0.034300 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Rock_13.prefab
+  artifactKey: Guid(9cc65f70ec0860444b6f36d2f956f32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Rock_13.prefab using Guid(9cc65f70ec0860444b6f36d2f956f32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2ac5748f1859f279664ed9d02455a8') in 0.031110 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Rock_04.prefab
+  artifactKey: Guid(768f79bfafc5a8c49b0de6b653d32494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Rock_04.prefab using Guid(768f79bfafc5a8c49b0de6b653d32494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964fc9d5f8b52b89c0b0535e73972520') in 0.027468 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Stair_el6.prefab
+  artifactKey: Guid(991783cf9504188488a2b0108d8f227a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Stair_el6.prefab using Guid(991783cf9504188488a2b0108d8f227a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8062524f3edff9b02bd5f2d633acb29c') in 0.032280 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Tree_04.prefab
+  artifactKey: Guid(01662245ba3b92f41bd4a058a62aa405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Tree_04.prefab using Guid(01662245ba3b92f41bd4a058a62aa405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94e6ad7c232e48c8e878da3029e006a') in 0.025482 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Tree_06.prefab
+  artifactKey: Guid(34665cecaa8640b4ea6cf4975388913a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Tree_06.prefab using Guid(34665cecaa8640b4ea6cf4975388913a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468e03a67f78e85843d1f989ce2838ad') in 0.025105 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Stair_el3.prefab
+  artifactKey: Guid(e8001e45d65035c4d8327d3611998e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Stair_el3.prefab using Guid(e8001e45d65035c4d8327d3611998e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7118110d8bd80938079936d179cd00d4') in 0.019294 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Tree_01.prefab
+  artifactKey: Guid(56fcad316909a954e9befd47adff7b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Tree_01.prefab using Guid(56fcad316909a954e9befd47adff7b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96391aff0948fcb39113d1a211eb53d') in 0.027296 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/scale.OBJ
+  artifactKey: Guid(56b6ed0f447ffd04ebc68e088a7546ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/scale.OBJ using Guid(56b6ed0f447ffd04ebc68e088a7546ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6654981b1d294fafc1817f1056edcc48') in 0.078189 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Rock_07.prefab
+  artifactKey: Guid(b5387c447b6a0264b92cf54b79501b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Rock_07.prefab using Guid(b5387c447b6a0264b92cf54b79501b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3e3833f2368c1fff1e040172fedd64') in 0.029692 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Tower_Base2_3.prefab
+  artifactKey: Guid(aba71fd67c8a7d94fa3b4e997e3168c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Tower_Base2_3.prefab using Guid(aba71fd67c8a7d94fa3b4e997e3168c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e9faaef360a470e8b2ea679497b201') in 0.024842 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Tree_08.prefab
+  artifactKey: Guid(62c2510a1d89b4544bfc960bb764e062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Tree_08.prefab using Guid(62c2510a1d89b4544bfc960bb764e062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50b2d8d315dca04d142dd5d19b3ff58') in 0.027394 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.001267 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Tree_Dead2.prefab
+  artifactKey: Guid(bf4afdd93fee91943986df29d27796a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Tree_Dead2.prefab using Guid(bf4afdd93fee91943986df29d27796a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71f1177e93a82f182570db211c8b377') in 0.032250 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Tent1_trunk.prefab
+  artifactKey: Guid(31b7262c09554b84286081a806a50b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Tent1_trunk.prefab using Guid(31b7262c09554b84286081a806a50b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b0e8fcb6df9e2af5941d47ff01a7a4') in 0.031015 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Rock_01.prefab
+  artifactKey: Guid(45df8199380b89f48aaf6c72246be762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Rock_01.prefab using Guid(45df8199380b89f48aaf6c72246be762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faabe0338bcd2c19b3d418e88b94b974') in 0.040139 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/MOBA and Tower Defense/Prefabs_props/Rock_16.prefab
+  artifactKey: Guid(22a68b09ee7660e4ca122320606591a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOBA and Tower Defense/Prefabs_props/Rock_16.prefab using Guid(22a68b09ee7660e4ca122320606591a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32a10e62e46684259f41a9aaadfa4ed') in 0.040292 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
